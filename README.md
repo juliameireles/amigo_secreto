@@ -1,38 +1,36 @@
-# Amigo Secreto 🎁
+# Amigo Secreto
 
-Este é um simples programa em Python para realizar um sorteio de Amigo Secreto. Ele permite que os usuários insiram os nomes dos participantes e faz o sorteio garantindo que ninguém tire a si mesmo.
+Este é um projeto simples de **Amigo Secreto** desenvolvido com HTML, CSS e JavaScript. O objetivo é permitir que os usuários insiram nomes em uma lista e, em seguida, sorteiem aleatoriamente um nome da lista para determinar quem será o "Amigo Secreto".
 
-## 🚀 Como usar
+## Funcionalidades
 
-1. Clone este repositório ou baixe o arquivo `amigo_secreto.py`.
-2. Execute o script no terminal ou prompt de comando:
-   ```sh
-   python amigo_secreto.py
-   ```
-3. Insira os nomes dos participantes e, quando terminar, digite `fim`.
-4. O programa exibirá os pares sorteados.
+- **Adicionar Nomes**: O usuário pode digitar o nome de um amigo e adicionar à lista ao clicar no botão "Adicionar".
+- **Validar Entrada**: Se o campo de texto estiver vazio, um alerta será exibido pedindo ao usuário para inserir um nome válido.
+- **Visualizar Lista**: Os nomes inseridos são exibidos em uma lista abaixo do campo de entrada.
+- **Sortear Amigo Secreto**: Ao clicar no botão "Sortear Amigo", um nome da lista será sorteado aleatoriamente e exibido na página.
 
-## 📌 Requisitos
+## Como usar
 
-- Python 3.x instalado.
+1. **Acessar o projeto online**:
+   Você pode visualizar o projeto funcionando diretamente no link:
+   [Amigo Secreto - Demo](https://juliameireles.github.io/amigo_secreto/)
 
-## 📝 Exemplo de uso
+2. **Executar o projeto localmente**:
+   - Clone este repositório para o seu computador:
+     ```bash
+     git clone https://github.com/juliameireles/amigo_secreto.git
+     ```
+   - Abra o arquivo `index.html` no seu navegador para começar a usar a aplicação.
 
-```
-Digite os nomes dos participantes e pressione Enter após cada nome.
-Quando terminar, digite 'fim'.
-Nome: Alice
-Nome: Bob
-Nome: Carol
-Nome: fim
+## Tecnologias Usadas
 
-Resultado do sorteio:
-Alice -> Bob
-Bob -> Carol
-Carol -> Alice
-```
+- **HTML**: Para a estrutura da página.
+- **CSS**: Para o estilo e layout.
+- **JavaScript**: Para a funcionalidade de adicionar nomes e realizar o sorteio aleatório.
 
-## 🔗 Contribuição
+## Como contribuir
 
-Sinta-se à vontade para fazer um fork deste repositório e sugerir melhorias! 😊
-
+1. Faça um fork deste repositório.
+2. Crie uma nova branch para suas alterações:
+   ```bash
+   git checkout -b minha-alteracao
